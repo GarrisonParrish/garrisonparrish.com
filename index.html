@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- contains all the nonvisible info for this page -->
+
+  <!-- holds title, links to any pages this page depends on,
+  description of site content, and link to CSS style sheet -->
+
+  <title>garrisonparrish.com</title>
+  <meta charset="UTF-8"> <!--Metatag - tells what type of characters we want to use (UTF-8)-->
+  <link rel="stylesheet" href="stylesheet1.css" type="text/css" />  <!--href stands for hyperreference-->
+  <!-- rel: what type of file the linked file is -->
+  <!-- href: what file to go to for styles in the page
+    NOTE: need to include path if file is in a subfolder -->
+  <!-- type: the file is a text file used for CSS -->
+  <!-- NOTE: always name the homepage index.html.
+    browsers look for this filename to open first when the website is opened -->
+
+  <!--Code for ink ribbon icon below-->
+  <!--
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/nc_icon/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/nc_icon/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/nc_icon/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicons/nc_icon/favicon_io/site.webmanifest"> -->
+</head>
+
+<body id="master-container">
+
+  <div id="header-wrapper">
+    <header class="header">
+      <h1>Garrison Parrish</h1>
+      <nav class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="sandbox.html">SANDBOX</a>
+        <a href="blog_home.html">BLOG</a>
+      </nav>
+    </header>
+  </div>
+
+  <div id="content-container">
+  <!-- add an image -->
+  <h2>Cool photo</h2>
+  <img src="images/mountain_lake.jpeg"/ />
+  <!-- NOTE: DO NOT use uppercases or spaces in .html filenames (will confuse browsers and servers) -->
+  <!-- Alt: text is displayed when the image hasn't loaded -->
+  <!-- Align: aligns text to the left or right of the image -->
+  <!-- Height and Width: defines height/width of image in browser window (in px) -->
+
+  <h2>Featured</h2>
+  <h3>Recent1</h3>
+  <h3>Recent2</h3>
+  <h3>Recent3</h3>
+
+
+  <!-- example of an absolute link -->
+  <p>
+    <a href="https://www.google.com" target="_blank">Search Google</a>
+  </p>
+
+  <!-- example of a relative link -->
+  <p>
+    Visit my <a href="about.html">about</a> page!
+  </p>
+</div>
+</body>
+</html>
