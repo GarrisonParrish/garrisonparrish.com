@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+/* Title text effect */
+/* Layered transition based on https://codepen.io/prathkum/pen/dyMPErw */
+/* Text outline based on https://codepen.io/creatz/pen/pooBeev */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: transparent;
+  /*
+  height: 100vh;
+  width: 100vw;
+  */
+}
+
+.bold-title {
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.fancy {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+}
+
+.fancy span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: #ff4b32;
+  font-size: 124px;
+  letter-spacing: 8px;
+  cursor: pointer;
+}
+
+.fancy span::before {
+  content: "garrison";
+  position: absolute;
+  color: black;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+.fancy span::after {
+  content: "garrison";
+  position: absolute;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #000000;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+.fancy span:hover:before {
+  top: 8px;
+  left: 8px;
+}
+
+.fancy span:hover:after {
+  top: -8px;
+  left: -8px;
+}

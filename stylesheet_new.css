@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+/* This stylesheet is based on a template found at https://www.w3schools.com/css/css_templates.asp */
+
+/* NOTE: Google Fonts also has icons that could be useful (in moderation) */
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+
+h1 {
+  font-family: 'Josefin Slab', Arial, sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: 'Josefin Slab', Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #ff4b32;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  min-width: 200px;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* transition: [property] [duration] [timing-function] [delay]; */
+  transition: color 300ms linear;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  color: #000000;
+}
+
+/* Style the content */
+.content {
+  padding: 10px;
+}
+
+.content h2 {
+  font-weight: bold;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #0f2b39;
+  color: #fff;
+  padding: 10px;
+}
+
+.footer h2 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.footer a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 300ms linear;
+}
+
+.footer a:hover {
+  text-decoration-color: #fff;
+}
