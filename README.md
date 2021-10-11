@@ -30,3 +30,6 @@ If you couldn't already tell, this project is very much a work in progress. Obli
 - Organize a professional portfolio with screenshots of/links to personal projects, a well-written bio, and an accessible blog
 - Add a section to download some of my best projects as packaged, ready-to-execute files. Perhaps link to another hosting service
 - Add a current projects page that will inevitably become very outdated at some point
+
+### Changelog and notes:
+- Added browsersync to package.json. Run "npm start" inside package to test in browser.
